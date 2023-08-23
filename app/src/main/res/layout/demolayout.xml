@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="380dp"
+    >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_marginBottom="12dp"
+    android:layout_height="260dp"
+    android:id="@+id/newimage"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="12dp"
+    android:src="@drawable/pen1"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newimage"
+        android:id="@+id/brand"
+        android:layout_marginTop="6dp"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:text="levis"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/brand"
+        android:id="@+id/product"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="white t shirt">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newimage"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="300dp"
+        android:text="price"
+        android:id="@+id/price">
+
+    </TextView>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/price"
+        android:id="@+id/cart"
+        android:src="@drawable/baseline_shopping_cart_24"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginBottom="3dp"
+        >
+
+    </ImageView>
+
+
+</RelativeLayout>

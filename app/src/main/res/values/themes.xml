@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Soumyakant_menu_activity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Soumyakant_menu_activity" parent="Base.Theme.Soumyakant_menu_activity" />
+
+    <style name="Theme.Soumyakant_menu_activity.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Soumyakant_menu_activity.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Soumyakant_menu_activity.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

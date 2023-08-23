@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".ui.accountinformation.AccountFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account information"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+
+        android:textSize="30dp"
+        android:id="@+id/textviewone"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageuser"
+       android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/imageuser"
+       android:layout_marginTop="50dp"
+      android:layout_marginLeft="90dp"
+        android:drawableStart="@drawable/acountspice"
+        android:drawablePadding="7dp"
+        android:textSize="20dp">
+
+    </TextView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailuser"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:drawableStart="@drawable/ice_email"
+        android:drawablePadding="7dp"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userbutton"
+        android:layout_below="@+id/mailuser"
+        android:layout_centerHorizontal="true"
+        android:text="back to home"
+        android:backgroundTint="#D42EB2"
+        android:drawableLeft="@drawable/arrowspice"
+        android:drawablePadding="3dp"
+        android:layout_marginTop="160dp"
+        android:textSize="22dp">
+
+    </Button>
+
+
+
+</RelativeLayout>

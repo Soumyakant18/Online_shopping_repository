@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.soumyakant_menu_activity.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragmenthome" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_account_information"
+        android:name="com.example.soumyakant_menu_activity.ui.accountinformation.AccountFragment"
+        android:label="@string/menu_account_information"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.soumyakant_menu_activity.ui.cart.cart_Fragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart_" />
+
+
+    <fragment
+        android:id="@+id/nav_signout"
+        android:name="com.example.soumyakant_menu_activity.ui.signout.SignoutFragment"
+        android:label="@string/menu_signout"
+        tools:layout="@layout/fragment_signout" />
+
+
+</navigation>

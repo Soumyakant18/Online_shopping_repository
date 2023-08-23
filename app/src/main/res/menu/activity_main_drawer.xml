@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homespice"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_account_information"
+            android:icon="@drawable/acountspice"
+            android:title="@string/menu_account_information" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cartspice"
+            android:title="@string/menu_cart" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/sign_outspice"
+            android:title="@string/menu_signout" />
+    </group>
+</menu>
